@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Corona Neo Fikry, S.T. — Medical Device Product Specialist</title>
+  <meta name="description" content="Personal website of Corona Neo Fikry, S.T. — Biomedical Engineer &amp; Medical Device Product Specialist based in Jakarta, Indonesia." />
+  <meta name="author" content="Corona Neo Fikry, S.T." />
+  <meta name="theme-color" content="#F7F5F0" id="meta-theme-color" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Corona Neo Fikry, S.T. — Medical Device Product Specialist" />
+  <meta property="og:description" content="Biomedical Engineer with 3+ years of experience helping hospitals and labs choose, set up, and get the most out of their medical equipment." />
+  <meta property="og:type" content="website" />
+
+  <!-- Default to Light Mode, persist user preference -->
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem('theme');
+        var theme = saved === 'dark' ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', theme);
+      } catch (e) {
+        document.documentElement.setAttribute('data-theme', 'light');
+      }
+    })();
+  </script>
+
+  <!-- Typography: Fraunces (warm, personable serif) & Plus Jakarta Sans (clean, friendly geometric sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Friendly Rounded Monogram Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='10' fill='%231F5E55'/%3E%3Ctext x='16' y='21' text-anchor='middle' font-family='Georgia, serif' font-weight='600' font-size='15' fill='%23F7F5F0'%3ECN%3C/text%3E%3C/svg%3E" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Floating Pill Header -->
+  <header class="site-header" id="top">
+    <div class="container">
+      <div class="nav-pill">
+        <a href="#top" class="brand-name">
+          <span class="brand-dot" aria-hidden="true"></span>
+          Corona Neo<span class="brand-degree">, S.T.</span>
+        </a>
+
+        <nav class="site-nav" aria-label="Primary Navigation">
+          <a href="#about" class="nav-link">About</a>
+          <a href="#brands" class="nav-link">Equipment</a>
+          <a href="#experience" class="nav-link">Experience</a>
+          <a href="#skills" class="nav-link">How I Work</a>
+          <a href="#education" class="nav-link">Background</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <div class="header-actions">
+          <button
+            type="button"
+            id="theme-toggle"
+            class="theme-switch"
+            aria-label="Toggle color theme"
+            title="Switch between Light and Dark mode"
+          >
+            <svg class="icon-sun" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+              <circle cx="10" cy="10" r="3.8" stroke="currentColor" stroke-width="1.6" />
+              <path d="M10 2.2V4.2M10 15.8V17.8M2.2 10H4.2M15.8 10H17.8M4.48 4.48L5.9 5.9M14.1 14.1L15.52 15.52M15.52 4.48L14.1 5.9M5.9 14.1L4.48 15.52" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+            </svg>
+            <svg class="icon-moon" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+              <path d="M15.8 12.6A6.5 6.5 0 0 1 7.4 4.2a6.5 6.5 0 1 0 8.4 8.4Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" />
+            </svg>
+            <span class="theme-switch-label" id="theme-toggle-label">Dark</span>
+          </button>
+
+          <a href="CV%20Corona%20Neo%20Fikry_Product%20Specialist%20(Easmed).pdf" download class="btn-header">
+            Resume PDF
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- ============================================================
+         HERO — CONVERSATIONAL & PROFESSIONAL
+         ============================================================ -->
+    <section id="about" class="hero-section">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-main">
+            <div class="greeting-pill">
+              <span class="status-dot" aria-hidden="true"></span>
+              <span>Hi, I’m Corona — based in Jakarta &amp; open to new opportunities</span>
+            </div>
+
+            <h1 class="hero-title">
+              I bridge the gap between <span class="highlight-serif">complex medical devices</span> and the people who use them every day.
+            </h1>
+
+            <p class="lead-text">
+              I’m a Biomedical Engineer with <strong>3+ years of hands-on experience</strong> across Field Service Engineering and Product Sales &amp; Marketing.
+            </p>
+
+            <p class="body-text">
+              Before I ever recommend a piece of equipment to a hospital or laboratory, I’ve usually spent time installing, calibrating, and troubleshooting it myself. That means I can talk specs with engineers, run practical demos for doctors and lab staff, and stay a reliable partner long after the delivery truck leaves.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#contact" class="btn-primary">Let’s Connect</a>
+              <a href="CV%20Corona%20Neo%20Fikry_Product%20Specialist%20(Easmed).pdf" download class="btn-secondary">
+                Download Full CV
+              </a>
+              <a href="https://www.linkedin.com/in/coronaneo" target="_blank" rel="noopener noreferrer" class="btn-text">
+                LinkedIn ↗
+              </a>
+            </div>
+          </div>
+
+          <!-- Warm Studio Card with Friendly Illustration + Quick Bio -->
+          <aside class="studio-card" aria-label="Quick Profile">
+            <div class="hero-illustration-wrap" aria-hidden="true">
+              <svg class="hero-device-svg" viewBox="0 0 360 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Soft organic background shapes -->
+                <circle cx="185" cy="105" r="78" fill="var(--svg-accent)" fill-opacity="0.09" />
+                <circle cx="145" cy="75" r="42" fill="var(--svg-warm)" fill-opacity="0.10" />
+
+                <!-- Optical light path -->
+                <path d="M168 158L182 95L168 52" stroke="var(--svg-accent)" stroke-opacity="0.45" stroke-width="1.4" stroke-dasharray="3 4" />
+
+                <!-- Microscope Base -->
+                <path d="M112 184H244C248.418 184 252 180.418 252 176V171C252 167.686 249.314 165 246 165H124L112 174V184Z" fill="var(--svg-fill-alt)" stroke="var(--svg-stroke)" stroke-width="1.6" stroke-linejoin="round" />
+                <line x1="128" y1="175" x2="236" y2="175" stroke="var(--svg-accent)" stroke-width="1.4" stroke-opacity="0.7" />
+
+                <!-- Illuminator Lamp -->
+                <rect x="148" y="156" width="38" height="9" rx="3" fill="var(--svg-fill)" stroke="var(--svg-accent)" stroke-width="1.5" />
+                <path d="M156 156L161 146H173L178 156" stroke="var(--svg-accent)" stroke-width="1.3" />
+
+                <!-- Curved C-Arm Stand -->
+                <path d="M214 165C226 142 232 115 226 84C221 58 205 46 184 46H172V64H184C196 64 205 74 207 92C210 116 202 142 190 165" fill="var(--svg-fill-alt)" stroke="var(--svg-stroke)" stroke-width="1.6" stroke-linejoin="round" />
+
+                <!-- Coaxial Focus Knobs -->
+                <circle cx="206" cy="140" r="13" fill="var(--svg-fill)" stroke="var(--svg-stroke)" stroke-width="1.6" />
+                <circle cx="206" cy="140" r="7" fill="var(--svg-fill-alt)" stroke="var(--svg-accent)" stroke-width="1.5" />
+                <circle cx="206" cy="140" r="2.2" fill="var(--svg-accent)" />
+
+                <!-- Mechanical Stage & Slide -->
+                <rect x="126" y="118" width="76" height="7" rx="3" fill="var(--svg-fill)" stroke="var(--svg-stroke)" stroke-width="1.6" />
+                <rect x="142" y="114" width="42" height="4" rx="1.5" fill="var(--svg-warm)" fill-opacity="0.35" stroke="var(--svg-warm)" stroke-width="1.3" />
+                <path d="M155 125H179L175 136H159L155 125Z" fill="var(--svg-fill-alt)" stroke="var(--svg-muted)" stroke-width="1.3" />
+
+                <!-- Nosepiece & Objectives -->
+                <path d="M156 76H192L186 86H162L156 76Z" fill="var(--svg-fill)" stroke="var(--svg-stroke)" stroke-width="1.5" />
+                <rect x="163" y="86" width="10" height="22" rx="2.5" fill="var(--svg-fill-alt)" stroke="var(--svg-stroke)" stroke-width="1.5" />
+                <line x1="163" y1="101" x2="173" y2="101" stroke="var(--svg-accent)" stroke-width="2" />
+                <path d="M177 86L185 103L193 99L185 83" fill="var(--svg-fill-alt)" stroke="var(--svg-muted)" stroke-width="1.4" stroke-linejoin="round" />
+                <path d="M161 86L153 101L146 97L155 82" fill="var(--svg-fill-alt)" stroke="var(--svg-muted)" stroke-width="1.4" stroke-linejoin="round" />
+
+                <!-- Optical Head & Eyepiece -->
+                <path d="M154 46H190L196 76H158L154 46Z" fill="var(--svg-fill)" stroke="var(--svg-stroke)" stroke-width="1.6" stroke-linejoin="round" />
+                <path d="M158 52L135 29L143 21L168 46" fill="var(--svg-fill-alt)" stroke="var(--svg-stroke)" stroke-width="1.6" stroke-linejoin="round" />
+                <path d="M131 25L139 17L145 23L137 31L131 25Z" fill="var(--svg-accent)" fill-opacity="0.25" stroke="var(--svg-accent)" stroke-width="1.5" />
+
+                <!-- Vital Waveform Card (Left) -->
+                <g>
+                  <rect x="26" y="42" width="70" height="46" rx="10" fill="var(--svg-fill)" stroke="var(--svg-accent)" stroke-opacity="0.4" stroke-width="1.4" />
+                  <path d="M35 67H47L52 54L58 76L64 50L69 67H87" stroke="var(--svg-accent)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                  <circle cx="87" cy="67" r="2.2" fill="var(--svg-warm)" />
+                </g>
+
+                <!-- Cell View Callout (Right) -->
+                <g>
+                  <circle cx="296" cy="72" r="28" fill="var(--svg-fill)" stroke="var(--svg-accent)" stroke-opacity="0.5" stroke-width="1.4" />
+                  <circle cx="292" cy="69" r="7.5" fill="var(--svg-warm)" fill-opacity="0.22" stroke="var(--svg-warm)" stroke-width="1.3" />
+                  <circle cx="292" cy="69" r="2.5" fill="var(--svg-warm)" />
+                  <circle cx="305" cy="78" r="4.5" stroke="var(--svg-accent)" stroke-width="1.2" />
+                  <path d="M222 86L268 76" stroke="var(--svg-accent)" stroke-opacity="0.45" stroke-width="1.2" stroke-dasharray="3 3" />
+                </g>
+              </svg>
+            </div>
+
+            <div class="quick-facts">
+              <div class="fact-row">
+                <span class="fact-label">Currently</span>
+                <span class="fact-val">FSE &amp; Sales/Marketing Specialist at PT. New Module International</span>
+              </div>
+              <div class="fact-row">
+                <span class="fact-label">Background</span>
+                <span class="fact-val">B.Eng. Biomedical Engineering, Airlangga University</span>
+              </div>
+              <div class="fact-row">
+                <span class="fact-label">Based In</span>
+                <span class="fact-val">Jakarta, Indonesia (Open to Product Specialist Roles)</span>
+              </div>
+            </div>
+          </aside>
+        </div>
+
+        <!-- Bento Impact Cards -->
+        <div class="highlights-grid" aria-label="Career Highlights">
+          <div class="highlight-card">
+            <div class="highlight-number">100+</div>
+            <div class="highlight-label">Clients Guided</div>
+            <p class="highlight-desc">Helped hospitals, clinics, and labs choose the right equipment for their daily workflow and budget.</p>
+          </div>
+
+          <div class="highlight-card">
+            <div class="highlight-number">80+</div>
+            <div class="highlight-label">Sites Supported</div>
+            <p class="highlight-desc">Built long-term relationships across 80+ healthcare and laboratory facilities through dependable after-sales care.</p>
+          </div>
+
+          <div class="highlight-card">
+            <div class="highlight-number">60+</div>
+            <div class="highlight-label">Devices Maintained</div>
+            <p class="highlight-desc">Hands-on installation, preventive maintenance, calibration, and troubleshooting in the field.</p>
+          </div>
+
+          <div class="highlight-card">
+            <div class="highlight-number">80+</div>
+            <div class="highlight-label">New Accounts Won</div>
+            <p class="highlight-desc">Grew territory adoption through market research, clear product demos, and consultative outreach.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         EQUIPMENT & BRANDS (WITH ILLUSTRATIONS)
+         ============================================================ -->
+    <section id="brands" class="section section-tinted">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="section-pill">Hands-On Familiarity</span>
+            <h2 class="section-title">Equipment &amp; Brands I’ve Worked With</h2>
+          </div>
+          <p class="section-intro">
+            From optical microscopes and IVF workstations to hospital critical-care machines, here are the systems I’ve trained on, demonstrated, and maintained.
+          </p>
+        </div>
+
+        <div class="brands-grid">
+          <!-- 1. Nikon Microscope -->
+          <div class="brand-card">
+            <div class="device-illustration" aria-hidden="true">
+              <svg viewBox="0 0 120 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="60" cy="44" r="34" fill="var(--svg-accent)" fill-opacity="0.09" />
+                <path d="M34 74H86" stroke="var(--svg-stroke)" stroke-width="2" stroke-linecap="round" />
+                <path d="M72 74C78 60 80 42 74 28C70 20 62 18 54 18" stroke="var(--svg-stroke)" stroke-width="1.8" stroke-linecap="round" />
+                <path d="M54 18L42 8M40 10L45 5" stroke="var(--svg-accent)" stroke-width="1.8" stroke-linecap="round" />
+                <rect x="50" y="22" width="10" height="18" rx="2.5" fill="var(--svg-fill)" stroke="var(--svg-stroke)" stroke-width="1.5" />
+                <path d="M55 40V48" stroke="var(--svg-warm)" stroke-width="2" stroke-linecap="round" />
+                <path d="M38 54H72" stroke="var(--svg-stroke)" stroke-width="1.8" stroke-linecap="round" />
+                <path d="M46 51H64" stroke="var(--svg-accent)" stroke-width="1.6" stroke-linecap="round" />
+                <circle cx="71" cy="58" r="5" fill="var(--svg-fill)" stroke="var(--svg-accent)" stroke-width="1.5" />
+              </svg>
+            </div>
+            <span class="brand-category">Microscopy &amp; Imaging</span>
+            <h3>Nikon Microscope</h3>
+            <p>Optical microscopy systems for clinical diagnostics, pathology, and research labs—covering setup, optical alignment, user training, and live demos.</p>
+          </div>
+
+          <!-- 2. Thermo Scientific -->
+          <div class="brand-card">
+            <div class="device-illustration" aria-hidden="true">
+              <svg viewBox="0 0 120 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="60" cy="44" r="34" fill="var(--svg-accent)" fill-opacity="0.09" />
+                <rect x="28" y="30" width="64" height="42" rx="6" fill="var(--svg-fill)" stroke="var(--svg-stroke)" stroke-width="1.6" />
+                <path d="M34 30L40 18H80L86 30" stroke="var(--svg-stroke)" stroke-width="1.5" stroke-linejoin="round" />
+                <circle cx="52" cy="51" r="12" stroke="var(--svg-accent)" stroke-width="1.5" />
+                <circle cx="52" cy="44" r="2" fill="var(--svg-warm)" />
+                <circle cx="52" cy="58" r="2" fill="var(--svg-warm)" />
+                <circle cx="45" cy="51" r="2" fill="var(--svg-accent)" />
+                <circle cx="59" cy="51" r="2" fill="var(--svg-accent)" />
+                <rect x="72" y="40" width="12" height="8" rx="2" stroke="var(--svg-accent)" stroke-width="1.4" />
+                <line x1="72" y1="54" x2="84" y2="54" stroke="var(--svg-muted)" stroke-width="1.4" stroke-linecap="round" />
+                <line x1="72" y1="59" x2="80" y2="59" stroke="var(--svg-muted)" stroke-width="1.4" stroke-linecap="round" />
+              </svg>
+            </div>
+            <span class="brand-category">Laboratory Instruments</span>
+            <h3>Thermo Scientific</h3>
+            <p>Analytical, sample preparation, and temperature-controlled lab equipment—matching the right instrument specs to each lab’s daily testing needs.</p>
+          </div>
+
+          <!-- 3. IVFTech -->
+          <div class="brand-card">
+            <div class="device-illustration" aria-hidden="true">
+              <svg viewBox="0 0 120 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="60" cy="44" r="34" fill="var(--svg-accent)" fill-opacity="0.09" />
+                <rect x="26" y="18" width="68" height="54" rx="6" fill="var(--svg-fill)" stroke="var(--svg-stroke)" stroke-width="1.6" />
+                <line x1="26" y1="32" x2="94" y2="32" stroke="var(--svg-stroke)" stroke-width="1.3" />
+                <circle cx="60" cy="54" r="11" fill="var(--svg-fill-alt)" stroke="var(--svg-accent)" stroke-width="1.5" />
+                <circle cx="58" cy="53" r="3" fill="var(--svg-warm)" fill-opacity="0.35" stroke="var(--svg-warm)" stroke-width="1.2" />
+                <circle cx="64" cy="56" r="2" fill="var(--svg-accent)" />
+                <path d="M34 46L49 53" stroke="var(--svg-stroke)" stroke-width="1.4" stroke-linecap="round" />
+                <path d="M86 46L71 53" stroke="var(--svg-stroke)" stroke-width="1.4" stroke-linecap="round" />
+                <path d="M46 23V28M60 23V28M74 23V28" stroke="var(--svg-accent)" stroke-width="1.4" stroke-linecap="round" />
+              </svg>
+            </div>
+            <span class="brand-category">Fertility &amp; Embryology</span>
+            <h3>IVFTech</h3>
+            <p>Specialized workstations and controlled-environment chambers built for Assisted Reproductive Technology (ART) and IVF laboratories.</p>
+          </div>
+
+          <!-- 4. Cook Medical -->
+          <div class="brand-card">
+            <div class="device-illustration" aria-hidden="true">
+              <svg viewBox="0 0 120 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="60" cy="44" r="34" fill="var(--svg-accent)" fill-opacity="0.09" />
+                <circle cx="54" cy="46" r="20" stroke="var(--svg-stroke)" stroke-width="1.6" />
+                <circle cx="54" cy="46" r="14" stroke="var(--svg-accent)" stroke-width="1.4" stroke-dasharray="3 3" />
+                <path d="M54 26H86" stroke="var(--svg-stroke)" stroke-width="1.8" stroke-linecap="round" />
+                <rect x="82" y="22" width="10" height="8" rx="2" fill="var(--svg-fill)" stroke="var(--svg-warm)" stroke-width="1.5" />
+                <path d="M54 66H32L26 60" stroke="var(--svg-accent)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <span class="brand-category">Clinical Devices</span>
+            <h3>Cook Medical</h3>
+            <p>Clinical medical devices and specialized reproductive/interventional tools—helping clinicians integrate products smoothly into patient care.</p>
+          </div>
+
+          <!-- 5. Biobase -->
+          <div class="brand-card">
+            <div class="device-illustration" aria-hidden="true">
+              <svg viewBox="0 0 120 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="60" cy="44" r="34" fill="var(--svg-accent)" fill-opacity="0.09" />
+                <rect x="32" y="14" width="56" height="48" rx="4" fill="var(--svg-fill)" stroke="var(--svg-stroke)" stroke-width="1.6" />
+                <path d="M38 62V75M82 62V75M34 75H86" stroke="var(--svg-stroke)" stroke-width="1.5" stroke-linecap="round" />
+                <rect x="38" y="26" width="44" height="24" rx="2" stroke="var(--svg-accent)" stroke-width="1.4" />
+                <line x1="38" y1="20" x2="82" y2="20" stroke="var(--svg-muted)" stroke-width="1.4" stroke-dasharray="2 2" />
+                <path d="M50 32V43M60 32V43M70 32V43" stroke="var(--svg-accent)" stroke-width="1.3" stroke-linecap="round" />
+                <path d="M48 41L50 44L52 41M58 41L60 44L62 41M68 41L70 44L72 41" stroke="var(--svg-accent)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <span class="brand-category">Biosafety &amp; Lab</span>
+            <h3>Biobase</h3>
+            <p>Biosafety cabinets, incubators, autoclaves, and clinical lab equipment—experienced in installation, routine maintenance, and staff training.</p>
+          </div>
+
+          <!-- 6. Hospital Diagnostic & Critical Care -->
+          <div class="brand-card">
+            <div class="device-illustration" aria-hidden="true">
+              <svg viewBox="0 0 120 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="60" cy="44" r="34" fill="var(--svg-accent)" fill-opacity="0.09" />
+                <rect x="24" y="20" width="54" height="40" rx="5" fill="var(--svg-fill)" stroke="var(--svg-stroke)" stroke-width="1.6" />
+                <path d="M44 60V70M58 60V70M38 70H64" stroke="var(--svg-stroke)" stroke-width="1.5" stroke-linecap="round" />
+                <path d="M30 42H39L43 31L48 51L53 36L56 42H70" stroke="var(--svg-warm)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M88 30C88 26 94 26 94 30L96 46C96 49 86 49 86 46L88 30Z" fill="var(--svg-fill)" stroke="var(--svg-stroke)" stroke-width="1.5" />
+                <path d="M85 53C89 56 93 56 97 53" stroke="var(--svg-accent)" stroke-width="1.4" stroke-linecap="round" />
+                <path d="M82 59C88 63 94 63 100 59" stroke="var(--svg-accent)" stroke-width="1.3" stroke-opacity="0.7" stroke-linecap="round" />
+              </svg>
+            </div>
+            <span class="brand-category">Hospital Systems</span>
+            <h3>Diagnostic &amp; Critical Care</h3>
+            <p>Hospital engineering internship experience supporting <strong>Ultrasound</strong>, <strong>X-Ray</strong>, <strong>LINAC radiotherapy</strong>, and <strong>Patient Ventilators</strong>.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         WORK EXPERIENCE
+         ============================================================ -->
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="section-pill">My Journey</span>
+            <h2 class="section-title">Work Experience</h2>
+          </div>
+          <p class="section-intro">
+            Where I’ve worked, what I’ve built, and how I’ve helped healthcare and laboratory teams succeed.
+          </p>
+        </div>
+
+        <div class="experience-list">
+          <!-- Role 1 -->
+          <article class="experience-card experience-card-featured">
+            <div class="exp-sidebar">
+              <span class="exp-badge">Current Role</span>
+              <div class="exp-dates">June 2023 – Present</div>
+              <div class="exp-location">Surabaya, East Java</div>
+            </div>
+
+            <div class="exp-content">
+              <h3 class="exp-role">Field Service Engineer &amp; Sales &amp; Marketing Specialist</h3>
+              <div class="exp-company">PT. New Module International</div>
+
+              <p class="exp-summary">
+                Wearing two hats—field engineer and product specialist. I guide customers through choosing the right equipment, then personally make sure it’s installed, calibrated, and running smoothly for their team.
+              </p>
+
+              <div class="exp-highlights">
+                <div class="exp-point">
+                  <h4>Consultative Product Advice</h4>
+                  <p>Worked with <strong>100+ customers</strong> to understand their lab or clinical requirements and recommend solutions that genuinely fit their needs.</p>
+                </div>
+
+                <div class="exp-point">
+                  <h4>Hands-On Field Support</h4>
+                  <p>Handled post-sales maintenance, calibration, and troubleshooting for <strong>60+ medical and lab devices across 80+ customer sites</strong>.</p>
+                </div>
+
+                <div class="exp-point">
+                  <h4>Growing the Customer Base</h4>
+                  <p>Developed and ran marketing strategies that brought in <strong>80+ new customers</strong> through market analysis and relationship building.</p>
+                </div>
+
+                <div class="exp-point">
+                  <h4>Connecting Field &amp; Sales</h4>
+                  <p>Listened closely to everyday users in the field and shared those insights with internal teams to improve product positioning and customer support.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Role 2 -->
+          <article class="experience-card">
+            <div class="exp-sidebar">
+              <div class="exp-dates">Jan 2020 – Feb 2020</div>
+              <div class="exp-location">West Jakarta, Jakarta</div>
+            </div>
+
+            <div class="exp-content">
+              <h3 class="exp-role">Engineer Intern</h3>
+              <div class="exp-company">Dharmais Cancer Hospital</div>
+
+              <ul class="exp-bullets">
+                <li>Supported maintenance and hardware operations for vital hospital equipment, including <strong>ultrasound systems, X-ray machines, LINAC radiotherapy units, and ventilators</strong>.</li>
+                <li>Partnered directly with doctors, nurses, and clinical staff on the floor to spot equipment issues early and help resolve them quickly.</li>
+                <li>Assisted the biomedical team with hands-on troubleshooting and prepared clear technical maintenance reports.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <!-- Earlier Customer Service & Writing Experience -->
+        <div class="earlier-roles">
+          <div class="earlier-header">
+            <h3>Earlier Roles in Hospitality &amp; Writing</h3>
+            <p>Before stepping into medical devices full-time, working in specialty coffee shops and freelance writing taught me how to lead a team, explain products clearly, and stay calm under pressure.</p>
+          </div>
+
+          <div class="earlier-grid">
+            <div class="earlier-card">
+              <div class="earlier-top">
+                <strong>Barista Supervisor</strong>
+                <span>Jan – Aug 2022</span>
+              </div>
+              <div class="earlier-org">Kopi Rempong · Sidoarjo</div>
+              <p>Led daily café operations and shift teams, used product knowledge to guide customer choices, and handled service recovery with care.</p>
+            </div>
+
+            <div class="earlier-card">
+              <div class="earlier-top">
+                <strong>Barista</strong>
+                <span>Aug – Dec 2021</span>
+              </div>
+              <div class="earlier-org">Common Grounds Graha Famili · Surabaya</div>
+              <p>Shared specialty coffee knowledge with guests in an approachable way and kept service quality high during busy rushes.</p>
+            </div>
+
+            <div class="earlier-card">
+              <div class="earlier-top">
+                <strong>Freelance Content Writer</strong>
+                <span>2018 – 2022</span>
+              </div>
+              <div class="earlier-org">Surabaya, East Java</div>
+              <p>Wrote, edited, and proofread articles while teaming up with marketers and designers to create clear, engaging visuals and stories.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         HOW I WORK / SKILLS
+         ============================================================ -->
+    <section id="skills" class="section section-tinted">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="section-pill">How I Work</span>
+            <h2 class="section-title">What I Bring to the Table</h2>
+          </div>
+          <p class="section-intro">
+            A balanced mix of technical know-how, commercial instinct, and people-first communication.
+          </p>
+        </div>
+
+        <div class="skills-columns">
+          <!-- Column 1 -->
+          <div class="skill-group">
+            <span class="skill-badge">01 · Commercial</span>
+            <h3 class="skill-group-title">Product &amp; Growth</h3>
+            <p class="skill-group-desc">Turning technical features into clear benefits that customers actually care about.</p>
+            <ul class="skill-list">
+              <li>Product Marketing &amp; Positioning</li>
+              <li>Engaging Live Product Demos</li>
+              <li>Customer Needs Analysis</li>
+              <li>Client Relationship Management (CRM)</li>
+              <li>Market &amp; Competitor Research</li>
+              <li>Business Development</li>
+              <li>Strategic Territory Planning</li>
+            </ul>
+          </div>
+
+          <!-- Column 2 -->
+          <div class="skill-group">
+            <span class="skill-badge">02 · Hands-On</span>
+            <h3 class="skill-group-title">Engineering &amp; Support</h3>
+            <p class="skill-group-desc">Making sure every instrument is set up right, calibrated, and dependable.</p>
+            <ul class="skill-list">
+              <li>Medical Device Installation</li>
+              <li>Friendly User &amp; Staff Training</li>
+              <li>Preventive &amp; Corrective Maintenance</li>
+              <li>Troubleshooting &amp; Diagnostics</li>
+              <li>Equipment Calibration</li>
+              <li>Root Cause Analysis (RCA)</li>
+              <li>Responsive Post-Sales Support</li>
+            </ul>
+          </div>
+
+          <!-- Column 3 -->
+          <div class="skill-group">
+            <span class="skill-badge">03 · People</span>
+            <h3 class="skill-group-title">Communication &amp; Teamwork</h3>
+            <p class="skill-group-desc">Connecting naturally with clinicians, lab managers, and internal teammates.</p>
+            <ul class="skill-list">
+              <li>Clear Presentations &amp; Storytelling</li>
+              <li>Warm, Consultative Communication</li>
+              <li>Calm, Practical Problem Solving</li>
+              <li>Team Leadership &amp; Supervision</li>
+              <li>Cross-Team Coordination</li>
+              <li>Adaptability on the Road</li>
+              <li>Technical &amp; Content Writing</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         EDUCATION & CREDENTIALS
+         ============================================================ -->
+    <section id="education" class="section">
+      <div class="container">
+        <div class="edu-grid">
+          <!-- Education -->
+          <div class="edu-block">
+            <span class="section-pill">Education</span>
+            <h2 class="section-title">Academic Roots</h2>
+
+            <div class="edu-card">
+              <div class="edu-header">
+                <h3>Airlangga University</h3>
+                <span class="edu-date">2017 – 2023</span>
+              </div>
+              <p class="edu-degree">Bachelor of Engineering (S.T.) — Biomedical Engineering</p>
+              <p class="edu-location">Surabaya, East Java</p>
+
+              <div class="thesis-card">
+                <div class="thesis-card-inner">
+                  <div class="thesis-copy">
+                    <span class="thesis-label">Final Thesis Research</span>
+                    <p class="thesis-title">
+                      “Characterization of Hydroxyapatite-Gelatin Layer on Ti-6Al-4V as a Dental Implant.”
+                    </p>
+                    <p class="thesis-note">
+                      Explored how coating titanium dental implants with a bioactive hydroxyapatite-gelatin layer helps bone tissue bond more naturally.
+                    </p>
+                  </div>
+
+                  <!-- Dental Implant Illustration -->
+                  <div class="thesis-illustration" aria-hidden="true" title="Ti-6Al-4V Dental Implant Illustration">
+                    <svg viewBox="0 0 88 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="44" cy="60" r="36" fill="var(--svg-accent)" fill-opacity="0.09" />
+                      <path d="M28 24C28 18 35 15 44 15C53 15 60 18 60 24L56 38H32L28 24Z" fill="var(--svg-fill)" stroke="var(--svg-stroke)" stroke-width="1.5" />
+                      <rect x="33" y="38" width="22" height="8" rx="2" fill="var(--svg-fill-alt)" stroke="var(--svg-accent)" stroke-width="1.4" />
+                      <path d="M35 46H53L49 96C48.5 100 39.5 100 39 96L35 46Z" fill="var(--svg-fill)" stroke="var(--svg-stroke)" stroke-width="1.5" />
+                      <path d="M33 54L55 57M34 64L54 67M35 74L53 77M36 84L52 87" stroke="var(--svg-warm)" stroke-width="1.6" stroke-linecap="round" />
+                      <circle cx="27" cy="60" r="1.6" fill="var(--svg-accent)" />
+                      <circle cx="29" cy="76" r="1.6" fill="var(--svg-accent)" />
+                      <circle cx="61" cy="63" r="1.6" fill="var(--svg-accent)" />
+                      <circle cx="59" cy="79" r="1.6" fill="var(--svg-accent)" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certifications -->
+          <div class="edu-block">
+            <span class="section-pill">Training</span>
+            <h2 class="section-title">Certifications &amp; Courses</h2>
+
+            <div class="cert-list">
+              <div class="cert-card">
+                <h3>Principal Product Training</h3>
+                <p class="cert-org">Nikon Microscope · Biobase · Thermo Scientific · IVFTech · Cook Medical</p>
+                <p class="cert-detail">Hands-on product training covering clinical applications, equipment setup, user demonstrations, and care across optical, lab, and IVF devices.</p>
+              </div>
+
+              <div class="cert-card">
+                <h3>Technical Engineering Certifications</h3>
+                <p class="cert-org">PT. New Module International</p>
+                <p class="cert-detail">Certified in field installation, preventive and corrective maintenance, calibration, and troubleshooting for medical and lab equipment.</p>
+              </div>
+
+              <div class="cert-card">
+                <h3>TOEFL (ITP) — Score: 523</h3>
+                <p class="cert-org">English Language Proficiency</p>
+                <p class="cert-detail">Comfortable reading international technical manuals, joining principal trainings, and communicating professionally in English.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CONTACT
+         ============================================================ -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="contact-card">
+          <div class="contact-copy">
+            <span class="section-pill">Say Hello</span>
+            <h2 class="contact-heading">Let’s chat about how we can work together.</h2>
+            <p class="contact-text">
+              Whether you’re hiring for a <strong>Medical Device Product Specialist</strong> role or looking for someone who blends field engineering with approachable, customer-first sales—I’d love to hear from you.
+            </p>
+          </div>
+
+          <div class="contact-links">
+            <div class="contact-item">
+              <div>
+                <span class="contact-label">Email Me</span>
+                <a href="mailto:coronaneo967@gmail.com" class="contact-value">coronaneo967@gmail.com</a>
+              </div>
+              <button type="button" class="copy-btn" data-copy="coronaneo967@gmail.com">Copy</button>
+            </div>
+
+            <div class="contact-item">
+              <div>
+                <span class="contact-label">LinkedIn</span>
+                <a href="https://www.linkedin.com/in/coronaneo" target="_blank" rel="noopener noreferrer" class="contact-value">
+                  linkedin.com/in/coronaneo
+                </a>
+              </div>
+              <a href="https://www.linkedin.com/in/coronaneo" target="_blank" rel="noopener noreferrer" class="contact-action">Connect ↗</a>
+            </div>
+
+            <div class="contact-item">
+              <div>
+                <span class="contact-label">Full Resume</span>
+                <a href="CV%20Corona%20Neo%20Fikry_Product%20Specialist%20(Easmed).pdf" download class="contact-value">
+                  Download CV (PDF)
+                </a>
+              </div>
+              <a href="CV%20Corona%20Neo%20Fikry_Product%20Specialist%20(Easmed).pdf" download class="contact-action">Download ↓</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2025</span> Corona Neo Fikry, S.T. · Based in Jakarta, Indonesia</p>
+      <a href="#top" class="back-to-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

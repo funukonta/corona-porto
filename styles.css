@@ -314,6 +314,11 @@ ul {
   box-shadow: var(--shadow-sm);
 }
 
+.greeting-pill strong {
+  color: var(--accent);
+  font-weight: 700;
+}
+
 .status-dot {
   width: 8px;
   height: 8px;
@@ -432,6 +437,14 @@ ul {
   height: auto;
   display: block;
   margin: 0 auto;
+}
+
+.illustration-caption {
+  text-align: center;
+  font-size: 0.76rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin-top: 0.45rem;
 }
 
 .quick-facts {
